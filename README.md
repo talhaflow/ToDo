@@ -8,7 +8,7 @@ Bu proje, kullanıcıların yapılacak görevleri kolayca yönetmelerine yardım
 
 
 ## Özellikler
--kullanıcı giriş islemleri 
+- kullanıcı giriş islemleri 
 - Yeni görevler ekleyebilirsiniz.
 - Varolan görevleri düzenleyebilir veya silebilirsiniz.
 
