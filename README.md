@@ -1,10 +1,10 @@
 # TODO Uygulaması README
 
 Bu proje, kullanıcıların yapılacak görevleri kolayca yönetmelerine yardımcı olmak amacıyla geliştirilmiş bir TODO uygulamasını içerir.
-![Ekran Görüntüsü 1](screenshots/ss1.png)
-![Ekran Görüntüsü 2](screenshots/ss2.png)
-![Ekran Görüntüsü 3](screenshots/ss3.png)
-![Ekran Görüntüsü 3](screenshots/ss4.png)
+![Ekran Görüntüsü 1](screenShot/ss1.png)
+![Ekran Görüntüsü 2](screenShot/ss2.png)
+![Ekran Görüntüsü 3](screenShot/ss3.png)
+![Ekran Görüntüsü 3](screenShot/ss4.png)
 
 
 ## Özellikler
