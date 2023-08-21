@@ -18,7 +18,10 @@ import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.ValueEventListener
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
+import com.talhakara.todoapp.R
 import com.talhakara.todoapp.databinding.FragmentHomeBinding
+import androidx.navigation.fragment.findNavController
+
 
 class HomeFragment : Fragment(), ToDoDialogFragment.OnDialogNextBtnClickListener,
     TaskAdapter.TaskAdapterInterface {
@@ -64,6 +67,15 @@ class HomeFragment : Fragment(), ToDoDialogFragment.OnDialogNextBtnClickListener
             )
 
         }
+
+        binding.exitBtn.setOnClickListener {
+            auth.signOut()
+            val navController = findNavController()
+            navController.navigate(R.id.action_homeFragment_to_signInFragment)
+            Toast.makeText(context, "Log Out", Toast.LENGTH_SHORT).show()
+        }
+
+
     }
 
     private fun getTaskFromFirebase() {
@@ -161,5 +173,7 @@ class HomeFragment : Fragment(), ToDoDialogFragment.OnDialogNextBtnClickListener
             ToDoDialogFragment.TAG
         )
     }
+
+
 
 }
